@@ -1,0 +1,13 @@
+<!-- tab-account.html -->
+    <ion-toggle ng-model="settings.autoStartup">
+      Auto Startup
+    </ion-toggle>
+    <ion-toggle ng-model="settings.geolocation">
+      Enable Geolocation
+    </ion-toggle>
+    <label class="item item-input">
+      <input type="text" placeholder="Username" ng-model="settings.username">
+    </label>
+    </ion-list>
+    <a class="button" ng-click="restoreCloudSettings()">Restore Settings</a>
+    <a class="button" ng-click="updateCloudSettings()">Save Settings</a>
